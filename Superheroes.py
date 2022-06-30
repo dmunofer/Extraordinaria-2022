@@ -43,3 +43,14 @@ class Superheroes(Escenarios):
     def is_alive(self):
         return self.energia_vital>0
 
+    def set_id(self,new_id):
+        self.id=new_id
+
+    def set_alias(self,new_alias):
+        self.alias=new_alias
+
+    def set_id_secret(self,new_id_secret):
+        self.id_secret=new_id_secret
+
+    #Los demás setters no son necesarios ya que son estadísticas random que dependen de si el superheroe es humano o extraterrestre
+
