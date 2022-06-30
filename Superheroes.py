@@ -41,5 +41,5 @@ class Superheroes(Escenarios):
         return self.hab_lucha
 
     def is_alive(self):
-        
+        return self.energia_vital>0
 
